@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180608013024_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180608013800_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180608030426_Role.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSLA-EntityFrameworkCore" Version="4.7.101" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CslaAspNetCoreIdentityTiers.Dal\CslaAspNetCoreIdentityTiers.Dal.csproj" />
+  </ItemGroup>
+
+</Project>

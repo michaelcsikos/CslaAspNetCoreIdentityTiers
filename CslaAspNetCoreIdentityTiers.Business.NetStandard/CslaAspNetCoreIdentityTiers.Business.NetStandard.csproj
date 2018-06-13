@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\CslaAspNetCoreIdentityTiers.Business\CslaAspNetCoreIdentityTiers.Business.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="CSLA-Core-NS" Version="4.7.101" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CslaAspNetCoreIdentityTiers.Dal\CslaAspNetCoreIdentityTiers.Dal.csproj" />
+  </ItemGroup>
+
+</Project>
