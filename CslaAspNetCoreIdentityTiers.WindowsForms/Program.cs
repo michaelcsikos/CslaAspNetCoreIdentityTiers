@@ -15,7 +15,7 @@ namespace CslaAspNetCoreIdentityTiers.WindowsForms
         static void Main()
         {
             Csla.DataPortal.ProxyTypeName              = typeof(Csla.DataPortalClient.HttpProxy).AssemblyQualifiedName;
-            Csla.DataPortalClient.HttpProxy.DefaultUrl = "http://localhost:51086/api/DataPortal/PostAsync";
+            Csla.DataPortalClient.HttpProxy.DefaultUrl = "http://localhost:51086/api/DataPortal";
             Csla.ApplicationContext.User               = new Csla.Security.UnauthenticatedPrincipal();
 
             Application.EnableVisualStyles();
