@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CslaAspNetCoreIdentityTiers.Business.Net</RootNamespace>
-    <AssemblyName>CslaAspNetCoreIdentityTiers.Business.Net</AssemblyName>
+    <AssemblyName>CslaAspNetCoreIdentityTiers.Business</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

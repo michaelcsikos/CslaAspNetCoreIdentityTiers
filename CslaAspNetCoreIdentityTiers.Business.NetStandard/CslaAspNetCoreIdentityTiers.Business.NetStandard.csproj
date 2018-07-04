@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>CslaAspNetCoreIdentityTiers.Business</AssemblyName>
   </PropertyGroup>
 
   <Import Project="..\CslaAspNetCoreIdentityTiers.Business\CslaAspNetCoreIdentityTiers.Business.projitems" Label="Shared" />

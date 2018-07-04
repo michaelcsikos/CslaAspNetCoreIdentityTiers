@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaAspNetCoreIdentityTiers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaAspNetCoreIdentityTiers.WindowsForms", "CslaAspNetCoreIdentityTiers.WindowsForms\CslaAspNetCoreIdentityTiers.WindowsForms.csproj", "{FD1A89D7-3483-442D-815D-F49305864AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaAspNetCoreIdentityTiers.AppService", "CslaAspNetCoreIdentityTiers.AppService\CslaAspNetCoreIdentityTiers.AppService.csproj", "{DC38AC9B-5E36-43AE-BF24-7521E75796FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CslaAspNetCoreIdentityTiers.AppService", "CslaAspNetCoreIdentityTiers.AppService\CslaAspNetCoreIdentityTiers.AppService.csproj", "{DC38AC9B-5E36-43AE-BF24-7521E75796FB}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
